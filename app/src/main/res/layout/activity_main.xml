@@ -10,10 +10,18 @@
     android:orientation="vertical"
     tools:context="com.example.administrator.rxjavademo.MainActivity">
 
-    <TextView
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NotificationListenerService"
+        android:onClick="onNotificationListenerService"
+        />
+
+    <RadioButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="Hello World!"
+        android:button="@null"/>
 
     <ImageView
         android:id="@+id/image"
